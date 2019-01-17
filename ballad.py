@@ -2,7 +2,7 @@ import sys
 
 import oisin
 
-filename = "input/alices.txt"
+filename = "input/wine.txt"
 try:
     filename = sys.argv[1]
 except IndexError:
@@ -10,6 +10,6 @@ except IndexError:
 
 oisin.balladize(
     oisin.load(filename),
-    meter=oisin.iambic(4, 'aabbccdd'),
-    step=50,
+    meter=oisin.iambic(6, 'aabbcc'),
+    step=13,
     order=3)
