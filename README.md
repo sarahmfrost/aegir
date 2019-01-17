@@ -10,6 +10,7 @@ Example of output with Alice in Wonderland corpus:
 ![alt text](https://github.com/sarahmfrost/aegir/blob/master/images/alice_output.png)
 
 Example of output with wine description corpus:
+
 ![alt text](https://github.com/sarahmfrost/aegir/blob/master/images/1.png)
 ![alt text](https://github.com/sarahmfrost/aegir/blob/master/images/2.png)
 ![alt text](https://github.com/sarahmfrost/aegir/blob/master/images/3.png)
