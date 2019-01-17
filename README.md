@@ -5,7 +5,7 @@ Wave Function Collapse for wine descriptions
 Forked this repo: https://github.com/mewo2/oisin 
 Mashes up sentance fragments to produce poems with fixed metric forms. 
 
-Example of output with Alice in Wonderland corpus:
+Example of output with original Alice in Wonderland corpus:
 
 ![alt text](https://github.com/sarahmfrost/aegir/blob/master/images/alice_output.png)
 
@@ -22,29 +22,25 @@ Example of output with wine description corpus:
 
 The original repository had minimal documentation for installation and running the algorithm, so we messed around with that for a while. 
 
-Sarah's installation process: 
+The installation process running Mac OS: 
 
 Download project and unzip
 In your terminal, cd to the directory and run the following commands:
+
 ```
-pip3 install
 pip install -r requirements.txt
 python3 ballad.py 
 ```
 
-To change the output of ballad.py, an obvious first step is to change the corpus that is referenced. In our case, we tested this algorithm on a document filled with wine terminology definitions and drink descriptions that can be found in "input/wine.txt"
+To change the output of ballad.py, an obvious first step is to change the corpus that is referenced. In our case, we tested this algorithm on a document filled with wine terminology definitions and drink descriptions that can be found in "input/wine.txt" and updated the filename reference in ballad.py. 
 
 ```
-import sys
-
-import oisin
-
 filename = "input/wine.txt"
-try:
-    filename = sys.argv[1]
-except IndexError:
-    pass
+```
 
+Another way to adjust the output is to change the parameters called in the balladize() function in ballad.py. The balladize() function in defined in "oisin/poetry.py". This function takes in the following variables: tokens (or the corpus), meter (which is defined using the iambic() function), step size, refrain and order.
+
+```
 oisin.balladize(
     oisin.load(filename),
     meter=oisin.iambic(6, 'aabbcc'),
@@ -52,6 +48,5 @@ oisin.balladize(
     order=3)
 ```
 
-We then replaced the input file with descriptions of wine. 
-
+To add more variation to the output text, we randomized the step size between values of 1 to 12 in the balladize() function. Otherwise, running balladize() multiple times does not lead to varied results.
 
