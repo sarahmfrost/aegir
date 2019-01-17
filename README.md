@@ -52,3 +52,7 @@ oisin.balladize(
 
 To add more variation to the output text, we randomized the step size between values of 1 to 12 in the balladize() function. Otherwise, running balladize() multiple times does not lead to varied results.
 
+
+-----
+Another example of Aegir - with Aaron Hertzmann's "Can Computers Create Art?" as input
+![alt text](https://github.com/sarahmfrost/aegir/blob/master/images/computerArtists_output.png)
