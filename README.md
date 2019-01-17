@@ -55,4 +55,6 @@ To add more variation to the output text, we randomized the step size between va
 
 -----
 Another example of Aegir - with Aaron Hertzmann's "Can Computers Create Art?" as input
+
+
 ![alt text](https://github.com/sarahmfrost/aegir/blob/master/images/computerArtists_output.png)
