@@ -1,7 +1,7 @@
 # aegir
 **Wave Function Collapse for wine descriptions**
 
-*This project is named for Aegir, the Norse god of beer and mead*
+*This project is named for Ægir, the Norse god of beer and mead*
 
 
 We Forked this repo: https://github.com/mewo2/oisin 
