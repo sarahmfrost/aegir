@@ -1,9 +1,11 @@
 # aegir
-Wave Function Collapse for wine descriptions 
+**Wave Function Collapse for wine descriptions**
+
+*This project is named for Aegir, the Norse god of beer*
 
 
-Forked this repo: https://github.com/mewo2/oisin 
-Mashes up sentance fragments to produce poems with fixed metric forms. 
+We Forked this repo: https://github.com/mewo2/oisin 
+which mashes up sentance fragments to produce poems with fixed metric forms. 
 
 Example of output with original Alice in Wonderland corpus:
 
