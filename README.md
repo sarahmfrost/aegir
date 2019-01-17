@@ -5,7 +5,7 @@
 
 
 We Forked this repo: https://github.com/mewo2/oisin 
-which mashes up sentance fragments to produce poems with fixed metric forms. 
+which mashes up sentence fragments to produce poems with fixed metric forms. 
 
 Example of output with original Alice in Wonderland corpus:
 
