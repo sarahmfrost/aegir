@@ -1,6 +1,6 @@
 This code is licensed under the MIT License:
 
-> Copyright (c) 2017: Martin O'Leary
+> Copyright (c) 2019: Sarah Frost, David Abramov, Manu Mathew Thomas
 > 
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
